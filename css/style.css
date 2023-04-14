@@ -1,0 +1,152 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #c8baba;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #3a3a3d;
+	color: #fff;
+	text-align: center;
+	font-size: calc(1vw + 1vh + 1vmin);
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: #262629;
+	border-right: 1px solid #bdc3c7;
+	display: inline-block;
+	float: right;
+	height: 130vh;
+	width: 15%;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul {
+	list-style: none;
+	padding: 2%;
+}
+
+nav ul li {
+	margin-bottom: 5%;
+}
+
+nav ul li a {
+	color: #fcfdff;
+	display: block;
+	padding: 7px;
+	text-decoration: none;
+	text-align: right;
+}
+
+nav ul li a:hover {
+	background-color: #525050;
+	color: #fff;
+}
+
+.cov {
+	background-image: url(../img/cover.jpg);
+	background-size: cover;
+	height: 130vh;
+	margin-right: 15%;
+	margin-left: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+	padding: 2%;
+}
+
+.dashboard-item {
+	width: 34%;
+	height: calc(8vw + 8vh);
+	background-color: #eee;
+	border: 1px solid #89a3a5;
+	border-radius: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	margin-bottom: 3%;
+	margin-right: 2%;
+	transition: all 0.2s ease;
+	font-size: calc(1vw + 1vh + 1vmin);
+	font-weight: 200;
+	color: #fff;
+	text-align: center;
+}
+
+.dashboard-item:hover {
+	transform: scale(1.1);
+	border-radius: 5%;
+	cursor: pointer;
+}
+
+#item1 {
+	background-color: #f40404;
+	margin-top: 1%;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#item2 {
+	background-color: #0007aa;
+	margin-top: 1%;
+	margin-right: 0;
+	margin-left: 2%;
+}
+
+#item3 {
+	background-color: #dd9f54;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#item4 {
+	background-color: #ff00b8;
+	margin-right: 0;
+	margin-left: 2%;
+}
+
+#item5 {
+	background-color: #7d0af0;
+	margin-right: 0;
+	margin-left: 0;
+}
+
+#item6 {
+	background-color: #ee9a4d;
+	margin-right: 0;
+	margin-left: 2%;
+}
+
+#item7 {
+	background-color: #F39d00;
+	margin-right:33%;
+	margin-left: 0;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7 {
+    padding-top: 8%;
+	margin: 2%;
+	width: 20%;
+}

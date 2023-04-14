@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لوحة التحكم</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/6446ce336c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- العنوان والهيدر -->
+    <header>
+        <h1>لوحة التحكم</h1>
+    </header>
+
+    <!-- القائمة الرئيسية -->
+    <nav>
+        <ul>
+            <li>
+                <a href="structure.html">
+                    <i class="fa fa-users"></i>
+                    الهيكل التنظيمي والإداري
+                </a>
+            </li>
+            <li>
+                <a href="employee-affairs.html">
+                    <i class="fa fa-user"></i>
+                    إدارة شئون العاملين
+                </a>
+            </li>
+            <li>
+                <a href="employee-registration.html">
+                    <i class="fa fa-edit"></i>
+                    تسجيل بيانات العاملين
+                </a>
+            </li>
+            <li>
+                <a href="financial-management.html">
+                    <i class="fa fa-money"></i>
+                    الإدارة المالية
+                </a>
+            </li>
+            <li>
+                <a href="training-management.html">
+                    <i class="fa fa-chalkboard-teacher"></i>
+                    إدارة التدريب
+                </a>
+            </li>
+            <li>
+                <a href="settings.html">
+                    <i class="fa fa-cog"></i>
+                    الضبط
+                </a>
+            </li>
+            <li>
+                <a href="logout.html">
+                    <i class="fa fa-sign-out"></i>
+                    تسجيل الخروج
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- المحتوى -->
+<div class="cov">
+    <main>
+        <div class="dashboard-item" id="item1" onclick="window.location.href='https://example.com/structure'">
+            <div>
+                <p>الهيكل التنظيمي والإداري</p>
+                <img class="img1" src="./img/h.jpg">
+            </div>
+        </div>
+        <div class="dashboard-item" id="item2" onclick="window.location.href='https://example.com/employees'">
+            <div> 
+                <p>إدارة شئون العاملين</p>
+                <img class="img2" src="./img/sh.jpg"> 
+            </div>
+        </div>
+        <div class="dashboard-item" id="item3" onclick="window.location.href='https://example.com/disciplinary-action'">
+            <div>
+                <p>تسجيل بيانات العاملين</p>
+                <img class="img3" src="./img/b.jpg">
+                </div>
+        </div>
+        <div class="dashboard-item" id="item4" onclick="window.location.href='https://example.com/training'">
+            <div>
+                <p>الإدارة المالية</p>
+                <img class="img4" src="./img/m.jpg">
+            </div>
+        </div>
+        <div class="dashboard-item" id="item5" onclick="window.location.href='https://example.com/attendance'">
+            <div>
+                <p>إدارة التدريب</p>
+                <img class="img5" src="./img/td.jpg">
+            </div>
+        </div>
+        <div class="dashboard-item" id="item6" onclick="window.location.href='https://example.com/attendance'">
+            <div>
+                <p>الضبط</p>
+                <img class="img6" src="./img/ed.jpg">
+            </div>
+        </div>
+        <div class="dashboard-item" id="item7" onclick="window.location.href='https://example.com/logout'">
+            <div>
+                <p>تسجيل الخروج</p>
+                <img class="img6" src="./img/ex.jpg">
+            </div>
+        </div>
+    </main>
+</div>
+</body>
+</html>
